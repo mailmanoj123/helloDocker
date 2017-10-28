@@ -15,4 +15,9 @@ public class HomeController {
 	public String objective() {
 		return "To be a DevOps jombie !!!";
 	}
+	
+	@RequestMapping("/learn")
+	public String learn() {
+		return "Spring Boot, docker and Jenkins";
+	}
 }
