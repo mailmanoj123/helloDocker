@@ -21,13 +21,11 @@ public class HelloDockerApplicationTests {
 		String result = hc.objective();
 		assertEquals(result, "To be a DevOps jombie !!!");
 	}
-	
-	//
-	
+
 	@Test
 	public void testLearn() {
 		HomeController hc = new HomeController();
-		String result = hc.objective();
-		assertEquals(result, "Spring Boot, docker and Jenkins !!!");
+		String result = hc.learn();
+		assertEquals(result, "Spring Boot, docker and Jenkins");
 	}
 }
